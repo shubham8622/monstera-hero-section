@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Allerta";
+}
+.container{
+    width: min(90%,85rem);
+    margin-inline: auto;
+}
+
+nav#navbarMonstera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding-top: 2rem;
+}
+
+div#navMid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    font-size: 1.2rem;
+}
+
+div#navEnd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+div#navEnd div {
+    width: 1.5rem;
+    text-align: center;
+}
+#navEnd img{
+    max-width: 100%;
+}
+div#navFirst {
+    width: 7rem;
+}
+#navFirst img {
+    max-width: 100%;
+}
+div#midWhole {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flower_img {
+    width: 30rem;
+    position: absolute;
+    right:0;
+    bottom: 0;
+}
+
+img#imgMain {
+    max-width: 100%;
+}
+
+div#midWholePart121 {
+    width: 12rem;
+    text-align: center;
+    background-color: #466d50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+    border-radius: 3rem;
+    color: #ffffff;
+    gap: 1rem;
+}
+
+h1#monstera {
+    font-size: 7rem;
+    font-weight: 900;
+}
+
+div#midWholePart121 h1 {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+div#midWholePart11 {
+    width: 50rem;
+}
+div#midWholePart12 {
+    margin-top: 2.5rem;
+}
+div#midWholePart13 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 3rem;
+}
+div#midWholePart1 {
+    margin-top: 10rem;
+}
+.midWholePart13Parts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    width: 15rem;
+}
+.image {
+    width: 3rem;
+}
+img#light,
+img#feeding,
+img#care {
+    max-width: 100%;
+}
+
+.content h4 {
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+
+p.text {
+    font-size: 0.8rem;
+}
